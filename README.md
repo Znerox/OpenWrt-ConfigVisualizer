@@ -1,6 +1,5 @@
 ## OpenWrt-ConfigVisualizer
-This script is a translation layer that takes standard OpenWrt config files and outputs text that can be passed to [Kroki](https://kroki.io) which will then generate a image in png/svg/pdf format, showing network interfaces, subnets and clients.
-(Kroki is using [nwdiag](https://github.com/blockdiag/nwdiag) to generate the image.)
+This script is a translation layer that takes standard OpenWrt config files and outputs text that can be passed to [Kroki](https://kroki.io) which will then generate an image or pdf, showing network interfaces, subnets and clients. It currently supports both Ethernet and WireGuard interfaces. (Kroki is using [nwdiag](https://github.com/blockdiag/nwdiag) to generate the image.)
 ## Usage
 
 Put NetworkDiagram.py in the same folder as these config files from your OpenWrt device
