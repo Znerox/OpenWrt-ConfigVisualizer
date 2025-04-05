@@ -37,4 +37,4 @@ nwdiag{Internet[shape=cloud];Internet -- OpenWrt;
 ````
 This output can be used by Kroki to generate your image. Either directly on [kroki.io](https://kroki.io) or by running Kroki locally, for example by using the official [Docker image](https://hub.docker.com/r/yuzutech/kroki).
 The final result will be something like this:
-![response](https://github.com/user-attachments/assets/aafbe8db-bfa7-432d-840e-3dde6d7c794f)
+![image](https://github.com/user-attachments/assets/514139c8-6a9d-489f-afdd-34639d344ee7)
